@@ -91,6 +91,37 @@ To use this MCP server with Claude Desktop, add the following configuration to y
 
 Replace `/path/to/mcp_chess_server` with the actual path to your installation directory.
 
+Alternatively, you can also integrate it directly from Github.
+The update claude desktop:
+
+```json
+"chess": {
+	"command": "uvx",
+	"args": [
+		"--from",
+		"git+https://github.com/CyprianFusi/mcp-chess-server.git",
+		"chess"
+	]
+}
+```
+
+If this is your first MCP server then use this instead:
+
+```json
+{
+  "mcpServers": {
+	"chess": {
+		"command": "uvx",
+		"args": [
+			"--from",
+			"git+https://github.com/CyprianFusi/mcp-chess-server.git",
+			"chess"
+		]
+	}
+  }
+}
+```
+
 ## Available Tools
 
 ### 1. `get_chess_player_profile`
