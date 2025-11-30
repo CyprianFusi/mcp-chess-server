@@ -91,8 +91,7 @@ To use this MCP server with Claude Desktop, add the following configuration to y
 
 Replace `/path/to/mcp_chess_server` with the actual path to your installation directory.
 
-Alternatively, you can also integrate it directly from Github.
-The update claude desktop:
+Alternatively, you can also integrate it directly from Github by updating claude desktop as follows:
 
 ```json
 "chess": {
